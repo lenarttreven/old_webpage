@@ -1,0 +1,24 @@
+title:              Lenart Treven
+email:              lenart.treven44@gmail.com
+description:        Master Student of Data Science
+author:             Lenart Treven
+baseurl:            ""
+url:                "https://lenarttreven.github.io"
+
+# Social Profiles
+twitter_username:   lenarttreven
+github_username:    lenarttreven
+facebook_username:  lenart.treven
+linkedin_username: lenart-treven
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
+
+# Build settings
+markdown:           kramdown
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
